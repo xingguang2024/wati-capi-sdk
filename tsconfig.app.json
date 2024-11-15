@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": false,
+    "lib": ["DOM", "ES2015"],
+    "module": "esnext",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "target": "es5",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "paths": {
+      "react": ["node_modules/preact/compat/"],
+      "react-dom": ["node_modules/preact/compat/"]
+    }
+  }
+}
